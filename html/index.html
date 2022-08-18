@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>main</title>
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function () {
+            $(".gnb>li").hover(function () {
+                //올렸을때
+                $(this).find(".sub").stop().slideDown();
+            }, function () {
+                //내렸을때
+                $(this).find(".sub").stop().slideUp();
+            });
+        });
+
+        // $(function () { 
+        //     $('.main').hover(function () {
+        //         $('.circle:nth-child(1)').removeClass('circle').addClass('c1');
+        //         $('.circle:nth-child(2)').removeClass('circle').addClass('c2');
+        //         $('.circle:nth-child(3)').removeClass('circle').addClass('c3');
+        //         $('.circle:nth-child(4)').removeClass('circle').addClass('c4');
+        //     }, function () {
+        //         $('.c1').removeClass('c1').addClass('circle');
+        //         $('.c2').removeClass('c2').addClass('circle');
+        //         $('.c3').removeClass('c3').addClass('circle');
+        //         $('.c4').removeClass('c4').addClass('circle');
+        //     });
+        // })
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <ul class="gnb">
+            <li>
+                <a href="#">ABOUT</a>
+                <ul class="sub">
+                    <li><a href="#">profile</a></li>
+                    <li><a href="#">experiences</a></li>
+                    <li><a href="#">skills</a></li>
+                    <li><a href="#">self-introduction</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="./projects.html">PROJECTS</a>
+                <ul class="sub">
+                    <li><a href="#">1M</a></li>
+                    <li><a href="#">Driving mate</a></li>
+                    <li><a href="#">G'ARTS</a></li>
+                    <li><a href="#">MUSIC</a></li>
+                    <li><a href="#">Curtain call</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="mainwrap">
+            <div class="main bounce"><img src="../img/mainprofile.png" alt=""></div>
+            <div class="circleBox">
+                <div class="circle"><span>experience</span></div>
+                <div class="circle"><span>profile</span></div>
+                <div class="circle"><span>skills</span></div>
+                <div class="circle"><span>self-introduction</span></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

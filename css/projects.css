@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'SUIT-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.gnb {
+    list-style: none;
+    height: 50px;
+    position: absolute;
+    z-index: 20;
+    display: flex;
+    top: 0;
+    right: 0;
+}
+
+.gnb>li {
+    /* float: right; */
+    text-align: center;
+    position: relative;
+}
+
+.gnb>li>a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    color: #555559;
+    font-family: 'SUIT-Regular';
+    font-size: 18px;
+}
+
+.gnb>li:hover>a {
+    font-family: 'SUIT-Bold';
+}
+
+.gnb ul {
+    display: none;
+    list-style: none;
+    color: #555559;
+}
+
+.gnb .sub a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-family: 'SUIT-Regular';
+    color: #555559;
+    font-size: 18px;
+}
+
+.gnb .sub li:hover a {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.055em;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'SUIT-Bold';
+  font-size: 100px;
+  /* line-height: 90px; */
+  background: #FBAB00;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 5%;
+  height: 100px;
+  overflow: hidden;
+  outline: 1px transparent;
+}
+
+.menu {
+  position: absolute;
+  top: 100px;
+  left: 5%;
+  list-style: none;
+  white-space: nowrap;
+  color: #fff;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu {
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
