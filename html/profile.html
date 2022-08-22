@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/profile.css">
+    <title>profile</title>
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function () {
+            $(".gnb>li").hover(function () {
+                //올렸을때
+                $(this).find(".sub").stop().slideDown();
+            }, function () {
+                //내렸을때
+                $(this).find(".sub").stop().slideUp();
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <ul class="gnb">
+            <li>
+                <a href="#">ABOUT</a>
+                <ul class="sub">
+                    <li><a href="./profile.html">profile</a></li>
+                    <li><a href="#">experiences</a></li>
+                    <!-- <li><a href="#">skills</a></li> -->
+                    <li><a href="#">self-introduction</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="./projects.html">PROJECTS</a>
+                <ul class="sub">
+                    <li><a href="#">1M</a></li>
+                    <li><a href="#">Driving mate</a></li>
+                    <li><a href="#">G'ARTS</a></li>
+                    <li><a href="#">MUSIC</a></li>
+                    <li><a href="#">Curtain call</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="mainwrap">
+            <div class="left">
+                <div class="leftwrap">
+                    <h1>KIM HARIM</h1>
+                    <P>1999.03.09</P>
+                    <P>harim990309@naver.com</P>
+                    <P>010-4911-0309</P>
+                    <P>한국산업기술대학교 미디어디자인공학부</P>
+                    <P>TOEIC 710</P>
+                </div>
+            </div>
+            <div class="center">
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <img src="../img/profile_png.png" alt="" width="22%">
+            </div>
+            <div class="right">
+                <div class="rightwrap">
+                    <h1>SKILLS</h1>
+                    <div class="skill">
+                        <p>Figma</p>
+                        <div class="graph">
+                            <div class="inner"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Photoshop</p>
+                        <div class="graph">
+                            <div class="inner"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Illustrator</p>
+                        <div class="graph">
+                            <div class="inner"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>HTML</p>
+                        <div class="graph">
+                            <div class="inner"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>CSS</p>
+                        <div class="graph">
+                            <div class="inner"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>jQuery</p>
+                        <div class="graph">
+                            <div class="inner"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>javascript</p>
+                        <div class="graph">
+                            <div class="inner"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>React</p>
+                        <div class="graph">
+                            <div class="inner"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>React Native</p>
+                        <div class="graph">
+                            <div class="inner"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Affter effect</p>
+                        <div class="graph">
+                            <div class="inner"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>NX UG</p>
+                        <div class="graph">
+                            <div class="inner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
