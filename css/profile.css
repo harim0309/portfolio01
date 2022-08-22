@@ -27,6 +27,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 a {
@@ -123,6 +124,17 @@ ul {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    animation: img 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes img {
+    from {
+        bottom: -60%;
+    }
+    to {
+        bottom: 0;
+    }
 }
 
 .circle1{
@@ -134,6 +146,18 @@ ul {
     bottom: 14%;
     left: 50%;
     transform: translateX(-50%);
+    animation: circle1 5s;
+    opacity: 100%;
+}
+
+@keyframes circle1 {
+    from {
+        opacity: 0;
+
+    }
+    to {
+        opacity: 100%;
+    }
 }
 
 .circle2{
@@ -143,8 +167,21 @@ ul {
     position: absolute;
     border-radius: 50%;
     bottom: 10%;
-    left: 50%;
+    left: 50%; 
     transform: translateX(-50%);
+    animation: circle2 3s;
+    opacity: 100%;
+}
+
+@keyframes circle2 {
+    from {
+        opacity: 0;
+ 
+    }
+    to {
+        opacity: 100%;
+
+    }
 }
 
 .right{
@@ -163,6 +200,7 @@ ul {
 
 h1{
     font-family: 'SUIT-Regular';
+    font-weight: 400;
     color: #FBAB00;
     font-size: 40px;
     letter-spacing: 0.1em;
@@ -178,6 +216,12 @@ h1{
     margin-bottom: 30px;
 }
 
+.skill p{
+    font-family: 'SUIT-Regular';
+    color: #555559;
+    font-size: 16px;
+}
+
 .graph{
     width: 190px;
     height: 12px;
@@ -190,6 +234,16 @@ h1{
     background-color: #FBAB00;
     width: 90%;
     border-radius: 6px;
+    animation: inner1 2.5s;
+}
+
+@keyframes inner1 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 90%;
+    }
 }
 
 .rightwrap .skill:nth-of-type(2) .inner{
@@ -197,6 +251,16 @@ h1{
     background-color: #FBAB00;
     width: 85%;
     border-radius: 6px;
+    animation: inner2 2.5s;
+}
+
+@keyframes inner2 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 85%;
+    }
 }
 
 .rightwrap .skill:nth-of-type(3) .inner{
@@ -204,6 +268,16 @@ h1{
     background-color: #FBAB00;
     width: 90%;
     border-radius: 6px;
+    animation: inner3 2.5s;
+}
+
+@keyframes inner3 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 90%;
+    }
 }
 
 .rightwrap .skill:nth-of-type(4) .inner{
@@ -211,6 +285,16 @@ h1{
     background-color: #FBAB00;
     width: 90%;
     border-radius: 6px;
+    animation: inner4 2.5s;
+}
+
+@keyframes inner4 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 90%;
+    }
 }
 
 .rightwrap .skill:nth-of-type(5) .inner{
@@ -218,6 +302,16 @@ h1{
     background-color: #FBAB00;
     width: 90%;
     border-radius: 6px;
+    animation: inner5 2.5s;
+}
+
+@keyframes inner5 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 90%;
+    }
 }
 
 .rightwrap .skill:nth-of-type(6) .inner{
@@ -225,6 +319,16 @@ h1{
     background-color: #FBAB00;
     width: 65%;
     border-radius: 6px;
+    animation: inner6 2.5s;
+}
+
+@keyframes inner6 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 65%;
+    }
 }
 
 .rightwrap .skill:nth-of-type(7) .inner{
@@ -232,6 +336,16 @@ h1{
     background-color: #FBAB00;
     width: 55%;
     border-radius: 6px;
+    animation: inner7 2.5s;
+}
+
+@keyframes inner7 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 55%;
+    }
 }
 
 .rightwrap .skill:nth-of-type(8) .inner{
@@ -239,6 +353,16 @@ h1{
     background-color: #FBAB00;
     width: 40%;
     border-radius: 6px;
+    animation: inner8 2.5s;
+}
+
+@keyframes inner8 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 40%;
+    }
 }
 
 .rightwrap .skill:nth-of-type(9) .inner{
@@ -246,6 +370,16 @@ h1{
     background-color: #FBAB00;
     width: 35%;
     border-radius: 6px;
+    animation: inner9 2.5s;
+}
+
+@keyframes inner9 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 35%;
+    }
 }
 
 .rightwrap .skill:nth-of-type(10) .inner{
@@ -253,6 +387,16 @@ h1{
     background-color: #FBAB00;
     width: 50%;
     border-radius: 6px;
+    animation: inner10 2.5s;
+}
+
+@keyframes inner10 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50%;
+    }
 }
 
 .rightwrap .skill:nth-of-type(11) .inner{
@@ -260,4 +404,14 @@ h1{
     background-color: #FBAB00;
     width: 35%;
     border-radius: 6px;
+    animation: inner11 2.5s;
+}
+
+@keyframes inner11 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 35%;
+    }
 }
