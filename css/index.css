@@ -90,9 +90,7 @@ ul {
 }
 
 /* ==================================== */
-/* .mainwrap{
 
-} */
 
 .main {
     position: absolute;
@@ -111,7 +109,7 @@ ul {
     transition: all 0.4s;
   }
 
-  @keyframes bounce {
+  /* @keyframes bounce {
     from {
       transform: translateY(-70%) translateX(-50%);
     }
@@ -119,7 +117,7 @@ ul {
     to {
       transform: translateY(-30%) translateX(-50%);
     }
-  }
+  } */
 
 .main img {
     width: 100%;
@@ -131,7 +129,6 @@ ul {
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
-    /* background-color: bisque; */
     width: 50%;
     height: 60%;
 }
@@ -151,7 +148,12 @@ ul {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.circleBox div{
+.circle a{
+    width: 100px;
+    height: 100px;
+}
+
+.circleBox a{
     transition: all 1s ease-in-out ;
     transition-property: top left bottom right;
 }
@@ -163,26 +165,26 @@ ul {
     float: left;
 }
 
-.main:hover ~ .circleBox div:nth-child(1),
+.main:hover ~ .circleBox a:nth-child(1),
 .circleBox:hover .circle:nth-child(1){
     top: 0px;
     transform: translateX(-50%);
 }
 
-.main:hover ~ .circleBox div:nth-child(2),
+.main:hover ~ .circleBox a:nth-child(2),
 .circleBox:hover .circle:nth-child(2){
     left: 0;
     transform: translateY(-50%);
 }
 
-.main:hover ~ .circleBox div:nth-child(3),
+.main:hover ~ .circleBox a:nth-child(3),
 .circleBox:hover .circle:nth-child(3){
     top: 100%;
     Bottom: 0;
     transform: translateX(-50%) translateY(-100%);
 }
 
-.main:hover ~ .circleBox div:nth-child(4),
+.main:hover ~ .circleBox a:nth-child(4),
 .circleBox:hover .circle:nth-child(4){
     right: 0;
     left: 100%;
@@ -190,20 +192,19 @@ ul {
     transform: translateY(-50%) translateX(-100%);
 }
 
-
-.circleBox div:nth-child(1) span{
+.circleBox a:nth-child(1) span{
     transform: translateX(40%) translateY(50%);
 }
 
-.circleBox div:nth-child(2) span{
+.circleBox a:nth-child(2) span{
     transform: translateY(120%) translateX(-40%);
 }
 
-.circleBox div:nth-child(3) span{
-    transform: translateY(160%) translateX(80%);
+.circleBox a:nth-child(3) span{
+    transform: translateY(160%) translateX(75%);
 }
 
-.circleBox div:nth-child(4) span{
+.circleBox a:nth-child(4) span{
     transform: translateY(190%) translateX(-30%);
     width: 270px;
 }
