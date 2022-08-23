@@ -107,6 +107,7 @@ ul {
 .leftwrap{
     position: absolute;
     bottom: 80px;
+    animation: up 1.8s ease-out;
 }
 
 .left p{
@@ -114,6 +115,18 @@ ul {
     color: #555559;
     line-height: 200%;
     font-family: 'SUIT-Regular';
+}
+
+@keyframes up {
+    0% {
+        bottom: -280px;
+    }
+    80%{
+        bottom: 100px;
+    }
+    100% {
+        bottom: 80px;
+    }
 }
 
 .center{
@@ -224,11 +237,6 @@ h1{
 .skill:hover {
     cursor: pointer;
 }
-/* 
-.skill:hover div{
-    background-color: #fafafa;
-} */
-
 
 .skill p{
     font-family: 'SUIT-Regular';
