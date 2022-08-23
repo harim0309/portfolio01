@@ -42,9 +42,9 @@ ul {
 
 .gnb {
     list-style: none;
-    height: 50px;
+    height: 220px;
     position: absolute;
-    z-index: 20;
+    z-index: 40;
     display: flex;
     top: 0;
     right: 0;
@@ -52,7 +52,6 @@ ul {
 }
 
 .gnb>li {
-    /* float: right; */
     text-align: center;
     position: relative;
 }
@@ -73,6 +72,7 @@ ul {
 
 .gnb .sub {
     display: none;
+    height: 200px;
 }
 
 .gnb .sub a {
@@ -190,7 +190,7 @@ ul {
 }
 
 .rightwrap{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .rightwrap h1{

@@ -43,11 +43,12 @@ ul {
     list-style: none;
     height: 50px;
     position: absolute;
-    z-index: 20;
+    z-index: 40;
     display: flex;
     top: 0;
     right: 0;
     margin-right: 40px;
+
 }
 
 .gnb>li {
