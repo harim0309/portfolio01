@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/index.css">
-    <title>main</title>
+    <link rel="stylesheet" href="../css/introduction.css">
+    <title>self-introduction</title>
 
     <script src="../js/jquery-3.6.0.min.js"></script>
     <script>
@@ -19,7 +19,6 @@
                 $(this).find(".sub").stop().slideUp();
             });
         });
-
     </script>
 </head>
 
@@ -41,19 +40,26 @@
                     <li><a href="#">1M</a></li>
                     <li><a href="#">Driving mate</a></li>
                     <li><a href="#">G'ARTS</a></li>
-                    <li><a href="#">MUSIC</a></li>
+                    <!-- <li><a href="#">MUSIC</a></li> -->
                     <li><a href="#">Curtain call</a></li>
                 </ul>
             </li>
         </ul>
         <div class="mainwrap">
-            <div class="main bounce"><img src="../img/mainprofile.png" alt=""></div>
-            <div class="circleBox">
-                <a class="circle" href="#"><span>experience</span></a>
-                <a class="circle" href="./profile.html"><span>profile</span></a>
-                <a class="circle" href="./profile.html"><span>skills</span></a>
-                <a class="circle" href="#"><span>self-introduction</span></a>
-            </div>
+            <svg viewBox="250 40 850 660">
+                <defs>
+                    <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250"
+                        id="textcircle">
+                        <animateTransform attributeName="transform" begin="0s" dur="60s" type="rotate" from="0 250 250"
+                            to="360 250 250" />
+                    </path>
+                </defs>
+                <text dy="70" textLength="1500">
+                    <textPath xlink:href="#textcircle">welcome to harim's portfolio ! this is my self - introduction
+                    </textPath>
+                </text>
+                <circle cx="250" cy="250" r="110" fill="#fbab00"/>
+            </svg>
         </div>
     </div>
 </body>
