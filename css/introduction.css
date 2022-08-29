@@ -97,6 +97,62 @@ text {
     text-transform: uppercase;
 }
 
-circle{
-    
+.right{
+    position: absolute;
+    z-index: 100;
+    top: 200px;
+    left: 600px;
+    padding-right: 160px;
+}
+
+h1{
+    font-family: 'SUIT-Regular';
+    font-size: 40px;
+    line-height: 180%;
+    margin-bottom: 20px;
+    letter-spacing: 0.055em;
+    animation: left 1.8s ease-in-out;
+}
+
+@keyframes left {
+    0% {
+        margin-left: 200px;
+        opacity: 0;
+    }
+    100% {
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
+
+hr{
+    border: 2px solid #FBAB00;
+    width: 120px;
+    animation: left 2s ease-in-out;
+}
+
+.right p{
+    font-size: 22px;
+    line-height: 210%;
+    margin-top: 114px;
+    font-family: 'NanumSquare';
+    letter-spacing: 0.05em;
+    animation: up 1.8s ease-in-out;
+    opacity: 1;
+}
+
+@keyframes up {
+    0% {
+        margin-top: 300px;
+        opacity: 0;
+        line-height: 400%;
+    }
+    80%{
+        margin-top: 90px;
+    }
+    100% {
+        margin-top: 114px;
+        opacity: 1;
+        line-height: 210%;
+    }
 }
