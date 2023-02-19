@@ -43,7 +43,7 @@ ul {
 
 .gnb {
     list-style: none;
-    height: 220px;
+    height: 500px;
     position: absolute;
     z-index: 40;
     display: flex;

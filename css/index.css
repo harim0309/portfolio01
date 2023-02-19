@@ -109,7 +109,7 @@ ul {
     transition: all 0.4s;
   }
 
-  /* @keyframes bounce {
+  @keyframes bounce {
     from {
       transform: translateY(-70%) translateX(-50%);
     }
@@ -117,7 +117,7 @@ ul {
     to {
       transform: translateY(-30%) translateX(-50%);
     }
-  } */
+  }
 
 .main img {
     width: 100%;

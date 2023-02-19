@@ -43,9 +43,8 @@ ul {
 
 .gnb {
     list-style: none;
-    height: 220px;
+    height: 500px;
     position: absolute;
-    z-index: 40;
     display: flex;
     top: 0;
     right: 0;
@@ -199,12 +198,12 @@ ul {
 }
 
 .right{
-    height: 100%;
+    /* height: 100%; */
     padding-right: 90px;
 }
 
 .rightwrap{
-    margin-top: 150px;
+    margin-top: 300px;
 }
 
 .rightwrap h1{
@@ -305,7 +304,7 @@ h1{
 .rightwrap .skill:nth-of-type(4) .inner{
     height: 12px;
     background-color: #FBAB00;
-    width: 90%;
+    width: 95%;
     border-radius: 6px;
     animation: inner4 2.5s;
 }
@@ -315,14 +314,14 @@ h1{
         width: 0;
     }
     to {
-        width: 90%;
+        width: 95%;
     }
 }
 
 .rightwrap .skill:nth-of-type(5) .inner{
     height: 12px;
     background-color: #FBAB00;
-    width: 90%;
+    width: 95%;
     border-radius: 6px;
     animation: inner5 2.5s;
 }
@@ -332,7 +331,7 @@ h1{
         width: 0;
     }
     to {
-        width: 90%;
+        width: 95%;
     }
 }
 
@@ -356,7 +355,7 @@ h1{
 .rightwrap .skill:nth-of-type(7) .inner{
     height: 12px;
     background-color: #FBAB00;
-    width: 55%;
+    width: 65%;
     border-radius: 6px;
     animation: inner7 2.5s;
 }
@@ -366,14 +365,14 @@ h1{
         width: 0;
     }
     to {
-        width: 55%;
+        width: 65%;
     }
 }
 
 .rightwrap .skill:nth-of-type(8) .inner{
     height: 12px;
     background-color: #FBAB00;
-    width: 40%;
+    width: 85%;
     border-radius: 6px;
     animation: inner8 2.5s;
 }
@@ -383,7 +382,7 @@ h1{
         width: 0;
     }
     to {
-        width: 40%;
+        width: 85%;
     }
 }
 
