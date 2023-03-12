@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothicBold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothicThin';
+    font-style: normal;
+    font-weight: 300;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+   }
+   
+   .nanumbarungothic * {
+    font-family: 'NanumBarunGothic', sans-serif;
+   }
+
+
+*{
+    margin: 0;
+    font-family: 'NanumBarunGothic';
+    font-size: 14px;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.header{
+    position: relative;
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+}
+
+.headerleft{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.titleWrap{
+    display: flex;
+    align-items: center;
+}
+
+.titleWrapLogo{
+    width: 7%;
+}
+
+.titleWrapTxt{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titleWrapTxtTop{
+    font-family: 'NanumBarunGothicThin';
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.titleWrapTxtBottom{
+    font-size: 3rem;
+    font-family: 'S-CoreDream-3Light';
+    color: #fff;
+}
+
+.contribution{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+h1{
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-family: 'SUIT-Regular';
+    font-weight: 400;
+    color: #FBAB00;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    line-height: 183%;
+    margin-bottom: 16px;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 24%;
+    margin-bottom: 30px;
+}
+
+.skill:hover p{
+    font-family: 'SUIT-Bold';
+}
+
+.skill:hover {
+    cursor: pointer;
+}
+
+.skill p{
+    font-family: 'SUIT-Regular';
+    color: #181819;
+    font-size: 1rem;
+}
+
+.graph{
+    width: 70%;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.skill:nth-of-type(1) .inner{
+    height: 12px;
+    background-color: #FBAB00;
+    width: 30%;
+    border-radius: 6px;
+    animation: inner1 2.5s;
+}
+.skill:nth-of-type(2) .inner{
+    height: 12px;
+    background-color: #FBAB00;
+    width: 95%;
+    border-radius: 6px;
+    animation: inner2 2.5s;
+}
+.skill:nth-of-type(3) .inner{
+    height: 12px;
+    background-color: #FBAB00;
+    width: 80%;
+    border-radius: 6px;
+    animation: inner3 2.5s;
+}
+
+@keyframes inner1 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 30%;
+    }
+}
+@keyframes inner2 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 95%;
+    }
+}
+@keyframes inner3 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+.headerright{
+    width: 50%;
+    position: absolute;
+    right: -10%;
+    top:-100%;
+}
+
+.headerright img{
+    width: 100%;
+}
+
+/* ================================== */
+
+.body{
+    padding: 10%;
+    padding-bottom: 5%;
+}
+
+.body h2{
+    margin-bottom: 3%;
+    font-size: 1.5rem;
+    color: #00B295;
+}
+
+.body p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 298.69%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+}
+
+.body ul{
+    margin-bottom: 5%;
+    margin-left: 3%;
+}
+.body ul li{
+    line-height: 190.19%;
+}
+
+.body a{
+    text-decoration: none;
+    color: #333;
+}
+
+.reviewboardFooter{
+    width: 100%;
+    display: block;
+}
