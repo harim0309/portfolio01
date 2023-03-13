@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/experiences.css">
     <title>experiences</title>
 
     <script src="../js/jquery-3.6.0.min.js"></script>
@@ -19,6 +19,8 @@
                 $(this).find(".sub").stop().slideUp();
             });
         });
+
+
 
     </script>
 </head>
@@ -48,9 +50,126 @@
             </li>
         </ul>
         <div class="mainwrap">
-
+            <div class="circle circle01" onclick="toggle01()">
+                <p>2018</p>
+            </div>
+            <div class="circle circle02" onclick="toggle02()">
+                <p>2020</p>
+            </div>
+            <div class="circle circle03" onclick="toggle03()">
+                <p>2021</p>
+            </div>
+            <div class="circle circle04" onclick="toggle04()">
+                <p>2022</p>
+            </div>
+            <div class="circle circle05" onclick="toggle05()">
+                <p>2023</p>
+            </div>
+            <div class="contents">
+                <ul id="list01" class="box close">
+                    한국산업기술대학교 밴드부FEEL 홍보부
+                    <span>밴드부 모집 포스터 디자인<br />한국산업기술대학교 축제 밴드부 부스 메뉴판 디자인</span>
+                </ul>
+                <ul id="list02" class="box close">
+                    디자인학부 학생회홍보차장
+                    <span>디자인학부 SNS 카드뉴스 제작</span>
+                    <br /><br />
+                    벨만벨브 디자인팀 아르바이트
+                    <span>벨만밸브 웹사이트 디자인 / 카페 24 퍼블리싱 / 제품 이미지 보정</span>
+                </ul>
+                <ul id="list03" class="box close">
+                    디자인학부 온라인 졸업전시위원회
+                    <span>온라인 졸업 전시회 웹사이트 기획, 디자인, 퍼블리싱</span><br /><br />
+                    디자인학부 졸업준비위원회 홍보부
+                    <span>SNS 컨텐츠 기획, 디자인 / 도록 디자인, 제작</span><br /><br />
+                    한국예술종합학교 언어의 정원 프로젝트 웹사이트 디자인
+                    <span>언어의 정원 웹사이트 기획 일부 / 웹 디자인 전체 / 로고 디자인</span>
+                </ul>
+                <ul id="list04" class="box close">
+                    태강에스티 디자인팀 아르바이트
+                    <span>어플 디자인 수정 / 리플렛 디자인 / 사람인 채용공고 디자인</span><br /><br />
+                    유아이네트웍스 기술본부 퍼블리셔 근무
+                    <span>부천시 스마트 시티패스 어플리케이션 내 '깨끗한 마을 프로젝트 전체 퍼블리싱 (React 사용)<br />
+                        부천시 스마트 시티패스 '깨끗한 마을' 관리자 페이지 전체 퍼블리싱 (JSP, Bootstrap 사용)<br />
+                        Hooxi 프로젝트 전체 퍼블리싱 (React Native 사용)<br />
+                        Hooxi 프로젝트 디자인 검토 (Figma 사용)
+                    </span>
+                </ul>
+                <ul id="list05" class="box close">
+                    SK Planet 주관 ASAC 프로그램 이수
+                    <span>웹 풀스텍 개발자 양성 과정</span>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
+<script>
+        const btn1 = document.getElementById('list01');
+        const btn2 = document.getElementById('list02');
+        const btn3 = document.getElementById('list03');
+        const btn4 = document.getElementById('list04');
+        const btn5 = document.getElementById('list05');
 
+        function toggle01() {
+            if(btn1.classList =='open1'){
+                btn1.classList.add('close');
+            }else{
+                btn1.classList.remove('close');
+                btn1.classList.add('open1')
+                btn2.classList.add('close');
+                btn3.classList.add('close');
+                btn4.classList.add('close');
+                btn5.classList.add('close');
+            }
+        }
+
+        function toggle02(){
+            if(btn2.classList =='open2'){
+                btn2.classList.add('close');
+            }else{
+                btn2.classList.remove('close')
+                btn2.classList.add('open2')
+                btn1.classList.add('close');
+                btn3.classList.add('close');
+                btn4.classList.add('close');
+                btn5.classList.add('close');
+            }
+        }
+        function toggle03(){
+            if(btn3.classList =='open3'){
+                btn3.classList.add('close');
+            }else{
+                btn3.classList.remove('close')
+                btn3.classList.add('open3')
+                btn2.classList.add('close');
+                btn1.classList.add('close');
+                btn4.classList.add('close');
+                btn5.classList.add('close');
+            }
+        }
+        function toggle04(){
+            if(btn4.classList =='open4'){
+                btn4.classList.add('close');
+            }else{
+                btn4.classList.remove('close')
+                btn4.classList.add('open4')
+                btn2.classList.add('close');
+                btn3.classList.add('close');
+                btn1.classList.add('close');
+                btn5.classList.add('close');
+            }
+        }
+        function toggle05(){
+            if(btn5.classList =='open5'){
+                btn5.classList.add('close');
+            }else{
+                btn5.classList.remove('close')
+                btn5.classList.add('open5')
+                btn2.classList.add('close');
+                btn3.classList.add('close');
+                btn4.classList.add('close');
+                btn1.classList.add('close');
+            }
+        }
+</script>
 </html>
