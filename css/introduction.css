@@ -44,7 +44,7 @@ ul {
 .gnb {
     list-style: none;
     height: 500px;
-    position: absolute;
+    position: fixed;
     z-index: 40;
     display: flex;
     top: 0;
@@ -102,7 +102,7 @@ text {
     z-index: 100;
     top: 10%;
     left: 20%;
-    padding-right: 160px;
+    padding-right: 140px;
 }
 
 h1{
@@ -139,6 +139,7 @@ hr{
     letter-spacing: 0.05em;
     animation: up 1.8s ease-in-out;
     opacity: 1;
+    padding-bottom: 5%;
 }
 
 @keyframes up {

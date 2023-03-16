@@ -55,6 +55,13 @@ body{
     z-index: -10;
 }
 
+.backIcon{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    width: 1%;
+}
+
 .headerleft{
     margin-top: 10%;
     margin-left: 5%;
@@ -202,6 +209,7 @@ h1{
     padding-bottom: 5%;
 }
 
+
 .body h2{
     margin-bottom: 3%;
     font-size: 1.5rem;
@@ -232,4 +240,210 @@ h1{
 .reviewboardFooter{
     width: 100%;
     display: block;
+}
+
+/* ========================== */
+
+.drivingmateBody h2{
+    color: #24A96D;
+}
+
+.drivingmateLogo{
+    width: 4%;
+}
+
+.drivingmateSkill:nth-of-type(1) .inner{
+    height: 12px;
+    background-color: #FBAB00;
+    width: 70%;
+    border-radius: 6px;
+    animation: inner4 2.5s;
+}
+.drivingmateSkill:nth-of-type(2) .inner{
+    height: 12px;
+    background-color: #FBAB00;
+    width: 90%;
+    border-radius: 6px;
+    animation: inner5 2.5s;
+}
+.drivingmateSkill:nth-of-type(3) .inner{
+    height: 12px;
+    background-color: #FBAB00;
+    width: 100%;
+    border-radius: 6px;
+    animation: inner6 2.5s;
+}
+
+@keyframes inner4 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 70%;
+    }
+}
+@keyframes inner5 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 90%;
+    }
+}
+@keyframes inner6 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.drivingmateMainImg img{
+    position: absolute;
+    right: 30%;
+}
+
+/* ============================== */
+
+
+.wantedBody h2{
+    color: #2C5BF2;
+}
+
+.wantedLogo{
+    width: 5%;
+}
+
+.wantedSkill{
+    margin-top: 10%;
+}
+
+.wantedSkill:nth-child(1) .inner{
+    height: 12px;
+    background-color: #FBAB00;
+    width: 100%;
+    border-radius: 6px;
+    animation: inner7 2.5s;
+}
+
+
+@keyframes inner7 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* ============================== */
+
+
+.musicBody h2{
+    color: #A568FF;
+}
+
+.musicLogo{
+    width: 3%;
+}
+
+.musicMainImg{
+    position: absolute;
+    right: 0%;
+    width: 50%;
+}
+
+.wantedSkill{
+    margin-top: 10%;
+}
+
+.musicSkill:nth-child(1) .inner{
+    height: 12px;
+    background-color: #FBAB00;
+    width: 70%;
+    border-radius: 6px;
+    animation: inner8 2.5s;
+}
+.musicSkill:nth-child(2) .inner{
+    height: 12px;
+    background-color: #FBAB00;
+    width: 80%;
+    border-radius: 6px;
+    animation: inner9 2.5s;
+}
+.musicSkill:nth-child(3) .inner{
+    height: 12px;
+    background-color: #FBAB00;
+    width: 100%;
+    border-radius: 6px;
+    animation: inner10 2.5s;
+} 
+
+
+@keyframes inner8 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 70%;
+    }
+}
+
+@keyframes inner9 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+@keyframes inner10 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* ============================== */
+
+
+.smartCityBody h2{
+    color: #3969F6;
+}
+
+.smartcityLogo{
+    width: 4%;
+}
+
+.smartcityMainImg{
+    position: absolute;
+    right: -10%;
+    width: 60%;
+    top: -200%;
+}
+
+.smartcitySkill{
+    margin-top: 10%;
+}
+
+.smartcitySkill:nth-child(1) .inner{
+    height: 12px;
+    background-color: #FBAB00;
+    width: 70%;
+    border-radius: 6px;
+    animation: inner11 2.5s;
+}
+
+
+@keyframes inner11 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 70%;
+    }
 }
