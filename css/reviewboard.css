@@ -447,3 +447,75 @@ h1{
         width: 70%;
     }
 }
+
+/* ============================== */
+
+
+.curtaincallBody h2{
+    color: #FA4D64;
+}
+
+.smartcityLogo{
+    width: 4%;
+}
+
+.curtaincallMain{
+    position: absolute;
+    right: -10%;
+    width: 50%;
+    top: -150%;
+}
+
+.curtaincallSkill:nth-child(1) .inner{
+    height: 12px;
+    background-color: #FBAB00;
+    width: 70%;
+    border-radius: 6px;
+    animation: inner13 2.5s;
+}
+
+
+@keyframes inner13 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 70%;
+    }
+}
+
+.curtaincallSkill:nth-child(2) .inner{
+    height: 12px;
+    background-color: #FBAB00;
+    width: 70%;
+    border-radius: 6px;
+    animation: inner14 2.5s;
+}
+
+
+@keyframes inner14 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 70%;
+    }
+}
+
+.curtaincallSkill:nth-child(3) .inner{
+    height: 12px;
+    background-color: #FBAB00;
+    width: 50%;
+    border-radius: 6px;
+    animation: inner15 2.5s;
+}
+
+
+@keyframes inner15 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50%;
+    }
+}
